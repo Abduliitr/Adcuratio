@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"nodemon server/index.js",
     "test": "npm start ",
     "pre": "node -r dotenv/config.js dotenv_config_path=.env "
   },
